@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+:root{
+    background-color:rgb(91, 152, 192);
+
+}
+body{
+    margin: 0%;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+   /*  background-color: rgb(255, 255, 255); */
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgba(204, 204, 204, 0.678);
+    padding: auto;
+    color: rgba(0, 0, 0, 0.328);
+    text-align: center;
+    font-family: "comic sans ms";
+    font-size: 2.5em;
+    
+}
+nav{
+    background-color:  rgba(111, 162, 196, 0.349);
+    display: flex;
+    justify-content: space-around;
+}
+header nav a{
+   
+    color: rgb(45, 121, 121);
+    font-family: "comic Sans MS";
+         
+}
+header nav ul{
+    
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+.nav{
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+}
+
+.nav-links{     
+    color: rgba(0, 0, 0, 0.746);
+    border: 10px;
+    font-weight: 550;
+    font-family: "comic Sans MS";
+    text-shadow: 2px 0px 10px #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 7px 13px;
+    
+
+    
+}
+.nav-item{
+    list-style-type: disc;
+} 
+nav a img{
+    width: 120px;
+    padding: 15px;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+/* ..........  SECTION     ........ */
+section h2{
+
+    color: rgb(34, 152, 156);
+    font-family: "comic Sans MS";
+    font-size: 2rem;
+   
+}
+.section-group{
+  
+    background-repeat: repeat-x;
+    position:initial;
+   /*  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
+    border-radius: 2%;
+    width: 100%;
+     height: 80%;
+    }
+section a img{ 
+    border-radius: 10px;
+    border: 20px;
+    border-color: black;           
+}
+.imagene1{
+    margin: 15px;
+    padding: 15px; 
+    text-shadow: 2px 0px 10px #0000005e;
+}
+.imagene2{
+    margin: 15px;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    text-shadow: 2px 0px 10px #0000005e;
+}
+
+.imagene3{
+    margin: 15px;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    text-shadow: 2px 0px 10px #0000005e;
+}
+.text-gato{
+    margin: 10px;
+    padding-top: 10px;
+    border: 0px;
+}
+.text-perro{
+
+    margin: 10px;
+    padding-top: 10px;
+    border: 0px;
+    /* justify-content: center; */
+}
+.text-loro{
+    margin: 10px;
+    padding-top: 10px;
+    border: 0px;
+}
+
+.section-group{
+   display: grid;
+   justify-content: space-evenly;
+   grid-template-columns: auto auto auto;
+}
+@media(max-width: 1057px){
+
+    .section-group{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto;
+
+    }
+}
+  
+@media(max-width:647px){
+
+    .nav-links{
+        font-size: 0.8em;
+    }
+}
+.div{
+    margin: 20px;
+    padding: 20px;
+    align-content: center;
+}
+
+/*........... FOOTER.......... */
+footer{
+    background-color:  rgb(111, 162, 196);
+    margin: auto;
+    padding: 10px;
+    font-family: "comic Sans MS";
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-shadow:  2px 2px 5px black;
+
+}
+footer a img{
+   width: 60px;
+   padding: 12px;
+
+}
+
+
+/* .............inicio-sesion............. */
+
+input[type=text],form{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+input[type=email],form{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+input[type=password],form{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+
+
