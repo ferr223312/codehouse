@@ -14,7 +14,6 @@
 body{
     margin: 0%;
     background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-   /*  background-color: rgb(255, 255, 255); */
     position: relative;
     padding-bottom: 3em;
     min-height: 100vh;
@@ -45,10 +44,19 @@ header nav ul{
     margin-right: 20px;
 }
 nav ul li{
+    background: rgba(68, 104, 172, 0.349);
     display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+    border-radius: 5px;
+    line-height: 45px;
+    margin: 20px 5px;
+    transition-property: all;
+    transition-duration: 0.75s;
 }
+nav ul li:hover{
+    background: #64d3caec;  
+    border-radius: 20px;
+}
+
 .nav{
     margin: 5px;
     padding: 5px;
@@ -60,7 +68,7 @@ nav ul li{
     border: 10px;
     font-weight: 550;
     font-family: "comic Sans MS";
-    text-shadow: 2px 0px 10px #000000;
+    text-shadow: 2px 0px 10px #000000c4;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
@@ -77,6 +85,12 @@ nav a img{
     padding: 15px;
     border-radius: 50%;
     opacity: 0.6;
+    transition-property: all;
+    transition-duration: 1s;
+}
+nav a img:hover{
+    width: 110px;
+    opacity: 0.85;
 }
 
 /* ..........  SECTION     ........ */
@@ -91,20 +105,21 @@ section h2{
   
     background-repeat: repeat-x;
     position:initial;
-   /*  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
     border-radius: 2%;
     width: 100%;
-     height: 80%;
+    height: 80%;
     }
 section a img{ 
     border-radius: 10px;
     border: 20px;
-    border-color: black;           
+    border-color: black;   
+            
 }
 .imagene1{
     margin: 15px;
     padding: 15px; 
     text-shadow: 2px 0px 10px #0000005e;
+    animation: poing;
 }
 .imagene2{
     margin: 15px;
@@ -112,6 +127,7 @@ section a img{
     width: auto;
     height: auto;
     text-shadow: 2px 0px 10px #0000005e;
+    animation: poing;
 }
 
 .imagene3{
@@ -120,7 +136,9 @@ section a img{
     width: auto;
     height: auto;
     text-shadow: 2px 0px 10px #0000005e;
+
 }
+
 .text-gato{
     margin: 10px;
     padding-top: 10px;
