@@ -149,7 +149,6 @@ section a img{
     margin: 10px;
     padding-top: 10px;
     border: 0px;
-    /* justify-content: center; */
 }
 .text-loro{
     margin: 10px;
@@ -157,27 +156,17 @@ section a img{
     border: 0px;
 }
 
-.section-group{
-   display: grid;
-   justify-content: space-evenly;
-   grid-template-columns: auto auto auto;
-}
-@media(max-width: 1057px){
+
+@media(max-width: 1049px){
 
     .section-group{
-        display: grid;
+        display: flex;
         justify-content: center;
-        grid-template-columns: auto;
+        flex-direction: column;
 
     }
 }
   
-@media(max-width:647px){
-
-    .nav-links{
-        font-size: 0.8em;
-    }
-}
 .div{
     margin: 20px;
     padding: 20px;
