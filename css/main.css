@@ -30,8 +30,8 @@ header {
 }
 nav{
     background-color:  rgba(111, 162, 196, 0.349);
-    display: flex;
-    justify-content: space-around;
+   /*  display: flex;
+    justify-content: space-around; */
 }
 header nav a{
    
