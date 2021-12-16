@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import"componentes/header.scss";
+@import"componentes/section";
+@import"componentes/inicio";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+:root{
+    background-color:rgb(91, 152, 192);
+
+}
+body{
+    margin: 0%;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+nav{
+    background-color:  rgba(111, 162, 196, 0.349);
+    a{
+        color: rgb(45, 121, 121);
+        font-family: "comic Sans MS";
+         
+    }
+    ul{
+        margin-right: 20px;
+        li{
+            background: rgba(68, 104, 172, 0.349);
+            display: flex;
+            border-radius: 5px;
+            line-height: 45px;
+            margin: 20px 5px;
+            transition-property: all;
+            transition-duration: 0.7s;
+        :hover{
+            background: #365986;  
+            border-radius: 27px;
+            text-shadow: rgba(10px, 0, 10px, 0.328);
+            }
+        }
+    }
+}
+.nav{
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+    .nav.item{
+        list-style-type: disc;
+
+    .nav-links{     
+        color: rgba(0, 0, 0, 0.746);
+        border: 10px;
+        font-weight: 550;
+        font-family: "comic Sans MS";
+        text-shadow: 0px 1px 4px #000000c4;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 18px;
+        padding: 7px 13px;  
+      }  
+    }
+}
+nav a img{
+    position: absolute;
+    margin: auto;
+    width: 120px;
+    padding: 15px;
+    border-radius: 50%;
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 0.7s;
+    :hover{
+        width: 110px;
+        opacity: 0.8;
+    }
+} 
+
+/*........... FOOTER.......... */
+footer{
+    background-color:  rgb(111, 162, 196);
+    margin: auto;
+    padding: 10px;
+    font-family: "comic Sans MS";
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-shadow:  2px 2px 5px black;
+    a img{
+        width: 60px;
+        padding: 12px;
+     
+     }
+}
+/* .............inicio-sesion............. */

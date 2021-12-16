@@ -1,0 +1,16 @@
+
+header{
+    background-color: rgba(204, 204, 204, 0.678);
+    padding: auto;
+    color: rgba(0, 0, 0, 0.328);
+    text-align: center;
+    font-family: "comic sans ms";
+    font-size: 2.5em;
+    width: 100%;
+    height: 1.5em;
+    transition-property: all;
+    transition-duration: 0.5s;  
+    :hover{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+}
