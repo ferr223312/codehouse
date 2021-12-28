@@ -1,4 +1,11 @@
-
+@mixin image {
+    
+}
+@mixin text {
+    margin: 10px;
+    padding-top: 10px;
+    border: 0px;
+}
 .section-group{
     background-repeat: repeat-x;
     position:initial;
@@ -9,11 +16,8 @@
         margin: 15px;
         padding: 15px; 
         text-shadow: 2px 0px 10px #0000005e;
-        animation: poing;
         .text-gato{
-            margin: 10px;
-            padding-top: 10px;
-            border: 0px;
+          @include image();
         }
     }
     .imagene2{
@@ -22,11 +26,8 @@
         width: auto;
         height: auto;
         text-shadow: 2px 0px 10px #0000005e;
-        animation: poing;
         .text-perro{
-            margin: 10px;
-            padding-top: 10px;
-            border: 0px;
+            @include image();
         } 
     }
     
@@ -37,9 +38,7 @@
         height: auto;
         text-shadow: 2px 0px 10px #0000005e;
         .text-loro{
-            margin: 10px;
-            padding-top: 10px;
-            border: 0px;
+            @include image();
         }
         
     }

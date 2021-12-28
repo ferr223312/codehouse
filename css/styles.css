@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+:root {
+  background-color: #5b98c0; }
+
+body {
+  margin: 0%;
+  background: linear-gradient(90deg, #ffffff 0%, #d9e7ff 100%);
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh; }
+
 header {
   background-color: rgba(204, 204, 204, 0.678);
   padding: auto;
@@ -31,8 +47,7 @@ nav {
     margin: 5px;
     padding: 5px;
     border: 5px;
-    margin-right: 20px;
-    list-style-type: disc; }
+    margin-right: 20px; }
     nav ul li {
       background: rgba(68, 104, 172, 0.349);
       display: flex;
@@ -41,6 +56,10 @@ nav {
       margin: 20px 5px;
       transition-property: all;
       transition-duration: 0.7s; }
+      nav ul li :hover {
+        background: #365986;
+        border-radius: 27px;
+        text-shadow: rgba(10, 0, 10, 0.328); }
       nav ul li a {
         color: rgba(0, 0, 0, 0.746);
         border: 10px;
@@ -51,10 +70,6 @@ nav {
         text-transform: uppercase;
         font-size: 18px;
         padding: 7px 13px; }
-        nav ul li a :hover {
-          background: #365986;
-          border-radius: 27px;
-          text-shadow: rgba(10, 0, 10, 0.328); }
 
 .section-group {
   background-repeat: repeat-x;
@@ -65,33 +80,19 @@ nav {
   .section-group .imagene1 {
     margin: 15px;
     padding: 15px;
-    text-shadow: 2px 0px 10px #0000005e;
-    animation: poing; }
-    .section-group .imagene1 .text-gato {
-      margin: 10px;
-      padding-top: 10px;
-      border: 0px; }
+    text-shadow: 2px 0px 10px #0000005e; }
   .section-group .imagene2 {
     margin: 15px;
     padding: 15px;
     width: auto;
     height: auto;
-    text-shadow: 2px 0px 10px #0000005e;
-    animation: poing; }
-    .section-group .imagene2 .text-perro {
-      margin: 10px;
-      padding-top: 10px;
-      border: 0px; }
+    text-shadow: 2px 0px 10px #0000005e; }
   .section-group .imagene3 {
     margin: 15px;
     padding: 15px;
     width: auto;
     height: auto;
     text-shadow: 2px 0px 10px #0000005e; }
-    .section-group .imagene3 .text-loro {
-      margin: 10px;
-      padding-top: 10px;
-      border: 0px; }
 
 @media (max-width: 1049px) {
   .section-group {
@@ -141,19 +142,3 @@ input[type=password], form {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box; }
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-:root {
-  background-color: #5b98c0; }
-
-body {
-  margin: 0%;
-  background: linear-gradient(90deg, #ffffff 0%, #d9e7ff 100%);
-  position: relative;
-  padding-bottom: 3em;
-  min-height: 100vh; }

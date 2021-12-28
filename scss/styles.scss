@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import"componentes/header";
-@import"componentes/nav";
-@import"componentes/section";
-@import"componentes/footer";
-@import"componentes/inicio";
 *{
     box-sizing: border-box;
     margin: 0;
@@ -21,6 +16,11 @@ body{
     padding-bottom: 3em;
     min-height: 100vh;
 }
+@import"componentes/header";
+@import"componentes/nav";
+@import"componentes/section";
+@import"componentes/footer";
+@import"componentes/inicio";
 
 
 
