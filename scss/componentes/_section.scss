@@ -1,10 +1,23 @@
-@mixin image {
-    
-}
+$h2text(
+colortext:rgb(34, 152, 156);)
 @mixin text {
     margin: 10px;
     padding-top: 10px;
     border: 0px;
+    h2{
+        color: colortext;
+        font-family: "comic Sans MS";
+        font-size: 2rem;}
+}
+
+section {
+   
+    
+    a img{
+            border-radius: 10px;
+            border: 20px;
+            border-color: black;   
+    
 }
 .section-group{
     background-repeat: repeat-x;
@@ -17,7 +30,7 @@
         padding: 15px; 
         text-shadow: 2px 0px 10px #0000005e;
         .text-gato{
-          @include image();
+        @include text();
         }
     }
     .imagene2{
@@ -27,7 +40,7 @@
         height: auto;
         text-shadow: 2px 0px 10px #0000005e;
         .text-perro{
-            @include image();
+        @include text();
         } 
     }
     
@@ -38,7 +51,7 @@
         height: auto;
         text-shadow: 2px 0px 10px #0000005e;
         .text-loro{
-            @include image();
+        @include text();
         }
         
     }
