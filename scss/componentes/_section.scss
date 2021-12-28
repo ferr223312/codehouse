@@ -1,23 +1,23 @@
-$h2text(
-colortext:rgb(34, 152, 156);)
+$h2text:(
+colortext: #22989c);
 @mixin text {
     margin: 10px;
     padding-top: 10px;
     border: 0px;
     h2{
-        color: colortext;
+        color: map-get($h2text, colortext);
         font-family: "comic Sans MS";
-        font-size: 2rem;}
+        font-size: 2rem;
+
+}
 }
 
-section {
-   
-    
+section { 
     a img{
             border-radius: 10px;
             border: 20px;
             border-color: black;   
-    
+    }
 }
 .section-group{
     background-repeat: repeat-x;
@@ -43,7 +43,6 @@ section {
         @include text();
         } 
     }
-    
     .imagene3{
         margin: 15px;
         padding: 15px;
@@ -52,8 +51,7 @@ section {
         text-shadow: 2px 0px 10px #0000005e;
         .text-loro{
         @include text();
-        }
-        
+        }       
     }
 }
 @media(max-width: 1049px){
@@ -61,6 +59,5 @@ section {
         display: flex;
         justify-content: center;
         flex-direction: column;
-
     }
 }

@@ -71,11 +71,6 @@ nav {
         font-size: 18px;
         padding: 7px 13px; }
 
-section h2 {
-  color: #22989c;
-  font-family: "comic Sans MS";
-  font-size: 2rem; }
-
 section a img {
   border-radius: 10px;
   border: 20px;
@@ -95,6 +90,10 @@ section a img {
       margin: 10px;
       padding-top: 10px;
       border: 0px; }
+      .section-group .imagene1 .text-gato h2 {
+        color: #22989c;
+        font-family: "comic Sans MS";
+        font-size: 2rem; }
   .section-group .imagene2 {
     margin: 15px;
     padding: 15px;
@@ -105,6 +104,10 @@ section a img {
       margin: 10px;
       padding-top: 10px;
       border: 0px; }
+      .section-group .imagene2 .text-perro h2 {
+        color: #22989c;
+        font-family: "comic Sans MS";
+        font-size: 2rem; }
   .section-group .imagene3 {
     margin: 15px;
     padding: 15px;
@@ -115,6 +118,10 @@ section a img {
       margin: 10px;
       padding-top: 10px;
       border: 0px; }
+      .section-group .imagene3 .text-loro h2 {
+        color: #22989c;
+        font-family: "comic Sans MS";
+        font-size: 2rem; }
 
 @media (max-width: 1049px) {
   .section-group {
