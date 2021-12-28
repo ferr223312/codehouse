@@ -37,13 +37,13 @@ header:hover{
 nav{
     background-color:  rgba(111, 162, 196, 0.349);
 }
-header nav a{
+nav a{
    
     color: rgb(45, 121, 121);
     font-family: "comic Sans MS";
          
 }
-header nav ul{
+nav ul{
       margin-right: 20px;
 }
 nav ul li{

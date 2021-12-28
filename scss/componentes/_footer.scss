@@ -1,0 +1,17 @@
+footer{
+    background-color:  rgb(111, 162, 196);
+    margin: auto;
+    padding: 10px;
+    font-family: "comic Sans MS";
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-shadow:  2px 2px 5px black;
+    a img{
+        width: 60px;
+        padding: 12px;     
+     }
+}
