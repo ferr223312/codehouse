@@ -1,5 +1,6 @@
+
 .section-animalhouse{ 
-    margin: 100px;
+    margin: 100px 300px;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(15rem,1fr)); 
     justify-content: space-around;
@@ -23,24 +24,25 @@
 
             }
             .capa{
+                background: #1715229e;
                 position: absolute;
                 top: 0;
                 width: 100%;
                 height: 100%;
-                background: rgba(69, 204, 121, 0.644);
+               
                 transition: all 500ms ease-out;
                 opacity: 0;
                 visibility: hidden;
                 text-align: center;
                 h3{
-                    color: rgb(12, 11, 11);
+                    color: white;
                     font-weight: 400;
                     margin-bottom: 120px;
                     transition: all 500ms ease-out;
                     margin-top: 30px;
                 }
                 p{
-                    color: rgb(12, 11, 11);
+                    color: white;
                     font-size: 15px;
                     line-height:1.5;
                     width: 100%;

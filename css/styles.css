@@ -10,7 +10,7 @@
 
 body {
   margin: 0%;
-  background: linear-gradient(90deg, #ffffff 0%, #d9e7ff 100%);
+  background: linear-gradient(90deg, #ffffff 0%, #d9e7ff);
   position: relative;
   padding-bottom: 3em;
   min-height: 100vh; }
@@ -30,7 +30,7 @@ header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 nav {
-  background-color: rgba(111, 162, 196, 0.349); }
+  background-color: rgba(0, 0, 0, 0.746); }
   nav a img {
     position: absolute;
     margin: auto;
@@ -173,7 +173,7 @@ input[type=password], form {
   box-sizing: border-box; }
 
 .section-animalhouse {
-  margin: 100px;
+  margin: 100px 300px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   justify-content: space-around;
@@ -195,23 +195,23 @@ input[type=password], form {
         height: 100%;
         transition: all 500ms ease-out; }
       .section-animalhouse .contenedor figure .capa {
+        background: #1715229e;
         position: absolute;
         top: 0;
         width: 100%;
         height: 100%;
-        background: rgba(69, 204, 121, 0.644);
         transition: all 500ms ease-out;
         opacity: 0;
         visibility: hidden;
         text-align: center; }
         .section-animalhouse .contenedor figure .capa h3 {
-          color: #0c0b0b;
+          color: white;
           font-weight: 400;
           margin-bottom: 120px;
           transition: all 500ms ease-out;
           margin-top: 30px; }
         .section-animalhouse .contenedor figure .capa p {
-          color: #0c0b0b;
+          color: white;
           font-size: 15px;
           line-height: 1.5;
           width: 100%;
