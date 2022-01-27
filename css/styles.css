@@ -116,7 +116,7 @@ section a img {
         font-family: "comic Sans MS";
         font-size: 2rem; }
 
-@media (max-width: 1049px) {
+@media (max-width: 1649px) {
   .section-group {
     display: flex;
     justify-content: center;
